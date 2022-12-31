@@ -1,13 +1,14 @@
-import React from 'react';
-import Botao from '../Components/Botao';
+import Cronometro from '../Components/Cronometro';
 import Formulario from '../Components/Formulario';
 import Lista from '../Components/Lista';
+import './style.scss'
 
 function App() {
   return (
-    <div className="App">
+    <div className="AppStyle">
       <Formulario />
       <Lista />
+      <Cronometro />
     </div>
   );
 }
